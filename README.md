@@ -61,8 +61,6 @@ To execute the code snippets or exercises, ensure that Node.js is installed on y
 
 - Replace variables.js with the specific file you want to execute.
 
-- Feel free to explore the various sections of this repository and run code snippets to deepen your understanding of JavaScript. If you encounter any issues or have questions, don't hesitate to reach out!
-
 ## Contact
 
 Feel free to reach out if you have any questions or suggestions:
@@ -71,4 +69,4 @@ Feel free to reach out if you have any questions or suggestions:
 - **Email:** floterina@gmail.com
 - **Facebook:** (https://web.facebook.com/FLOZ.STN)
 
-Thank you for exploring my Python projects collection!
+Thank you for exploring my javascript notes!
