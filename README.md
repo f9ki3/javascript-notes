@@ -23,24 +23,20 @@ To execute the code snippets or exercises, ensure that Node.js is installed on y
 
    ```bash
    git clone https://github.com/f9ki3/javascript-notes.git
+   
 2. stalling the Node.js runtime environment:
 
 - For Windows:
-
         Visit the official Node.js website.
-
         Download the latest LTS version for Windows.
-
         Run the installer and follow on-screen instructions.
-
         After installation, open a command prompt and type the following command to verify:
 
   ```bash
   node -v
 
 For macOS:
-
-    Use Homebrew to install Node.js. Open your terminal and run:
+      Use Homebrew to install Node.js. Open your terminal and run:
 
   ```bash
   brew install node
