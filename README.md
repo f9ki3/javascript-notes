@@ -39,7 +39,15 @@ To execute the code snippets or exercises, ensure that Node.js is installed on y
       Use Homebrew to install Node.js. Open your terminal and run:
   ```bash
   brew install node
-  
-Verify installation with:
+
+- For Linux:
+
+    Use your distribution's package manager to install Node.js. On Ubuntu, run:
+
+  ```bash
+  sudo apt-get update
+  sudo apt-get install nodejs
+
+Verify installation:
   ```bash
   node -v
