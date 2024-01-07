@@ -35,38 +35,11 @@ To execute the code snippets or exercises, ensure that Node.js is installed on y
   ```bash
   node -v
 
-For macOS:
+- For macOS:
       Use Homebrew to install Node.js. Open your terminal and run:
-
   ```bash
   brew install node
-
+  
 Verify installation with:
-
-
-
   ```bash
   node -v
-
-For Linux:
-
-    Use your distribution's package manager to install Node.js. On Ubuntu, run:
-
-  ```bash
-  sudo apt-get update
-  sudo apt-get install nodejs
-
-Verify installation:
-
-  ```bash
-  node -v
-
-Once Node.js is installed, navigate to the cloned repository's directory and run JavaScript files using the node command. For example:
-
-  ```bash
-  cd javascript-notes
-  node variables.js
-
-Replace variables.js with the specific file you want to execute.
-
-Feel free to explore the various sections of this repository and run code snippets to deepen your understanding of JavaScript. If you encounter any issues or have questions, don't hesitate to reach out!
