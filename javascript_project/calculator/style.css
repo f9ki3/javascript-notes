@@ -9,8 +9,8 @@
     padding-bottom: 30px;
     margin-top: 20px;
     border: 1px solid gray;
-    height: 550px;
-    width: 400px;
+    height: 450px;
+    width: 300px;
     border-radius: 10px;
     background-color: rgb(49, 49, 49);
 }
@@ -58,7 +58,7 @@ input{
     border: none;
     border-radius: 10px;
     width: 20%;
-    height: 70px;
+    height: 40px;
     background-color: yellow;
     font-size: 30px;
 
@@ -87,7 +87,7 @@ input{
     margin-top: 20px;
     border: 1px solid gray;
     height: 20px;
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
     margin-bottom: 30px;
     display: flex;
