@@ -2,47 +2,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Calculator by f9ki3</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="galaxy.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
 </head>
-<body>
-<section>
-    <div class="div1">
-        <div class="screen">
-            <input type="text" id="number">
+<body >
+<div class="stars">
+    <section>
+        <div class="div1">
+            <div class="screen">
+                <input type="text" id="number">
+            </div>
+    
+            <div class="pad">
+                <div class="keypad">
+                    <button onclick="appendValue('1')">1</button>
+                    <button onclick="appendValue('2')">2</button>
+                    <button onclick="appendValue('3')">3</button>
+                    <button onclick="appendValue('+')">+</button>
+                </div>
+                <div class="keypad">
+                    <button onclick="appendValue('4')">4</button>
+                    <button onclick="appendValue('5')">5</button>
+                    <button onclick="appendValue('6')">6</button>
+                    <button onclick="appendValue('-')">-</button>
+                </div>
+                <div class="keypad">
+                    <button onclick="appendValue('7')">7</button>
+                    <button onclick="appendValue('8')">8</button>
+                    <button onclick="appendValue('9')">9</button>
+                    <button onclick="appendValue('/')">/</button>
+                </div>
+                <div class="keypad">
+                    <button onclick="appendValue('.')">.</button>
+                    <button onclick="appendValue('0')">0</button>
+                    <button onclick="calculate()">=</button>
+                    <button onclick="appendValue('*')">*</button>
+                </div>
+                <div class="clear">
+                    <button onclick="clearInput('C')">C</button>
+                    <button onclick="clearInput('AC')">AC</button>
+                </div>
+            </div>
         </div>
-
-        <div class="pad">
-            <div class="keypad">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-            </div>
-            <div class="keypad">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-            </div>
-            <div class="keypad">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>/</button>
-            </div>
-            <div class="keypad">
-                <button>.</button>
-                <button>0</button>
-                <button>=</button>
-                <button>*</button>
-            </div>
-            
-            
+    </section>
+    
+    <section class="section2">
+        <div class="div2">
+            <a href="https://github.com/f9ki3"><i class="fab fa-github"></i>Github</a>
+            <a href="https://www.linkedin.com/in/fyke-lotere%C3%B1a-a4a7a320b/"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            <a href="https://web.facebook.com/FLOZ.STN/"><i class="fab fa-facebook"></i>Facebook</a>
         </div>
-    </div>
-</section>
+        
+    </section>
+    
 
+</div>
 <script src="calculator.js"></script>
+<script src="galaxy.js"></script>
 </body>
 </html>

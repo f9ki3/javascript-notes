@@ -1,19 +1,21 @@
-function add(a,b){
-    return a + b;
+let currentValue = "";
+
+function appendValue(value) {
+    currentValue += value;
+    document.getElementById('number').value = currentValue;
 }
 
-function subtract(a,b){
-    return a - b;
+function calculate() {
+    document.getElementById('number').value = eval(currentValue);
+    currentValue = "";
 }
 
-function multiply(a,b){
-    return a * b;
-}
+function clearInput(type) {
+    if (type === 'C') {
+        currentValue = currentValue.slice(0, -1); // Remove the last character
+    } else if (type === 'AC') {
+        currentValue = "";
+    }
 
-function divide(a,b){
-    return a / b;
+    document.getElementById('number').value = currentValue;
 }
-
-const a_id = document.getElementById('number');
-const a = a_id.value;
-console.log(a);

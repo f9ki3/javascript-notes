@@ -1,11 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .div1{
     padding: 20px;
+    padding-bottom: 30px;
     margin-top: 20px;
     border: 1px solid gray;
     height: 550px;
@@ -60,10 +61,48 @@ input{
     height: 70px;
     background-color: yellow;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .keypad button:hover{
-    border: 2px solid red;
+    border: 3px solid rgb(49, 49, 49);
+}
+
+.clear{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear button{
+    background-color: yellow;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    width: 47%;
+    border-radius: 10px;
+}
+
+.div2{
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    height: 20px;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+section2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
 }
